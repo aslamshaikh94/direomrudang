@@ -247,6 +247,11 @@
   }
 }
 .atbd_listing_data_list {
+  &.button_list {
+    li {
+      margin-bottom: 1rem;
+    }
+  }
   ul {
     margin: 5px 0 0 0;
     padding: 0;
@@ -596,6 +601,31 @@
   height: 2rem;
   background: rgba($secondary, 0.1);
   color: $secondary;
+  border-color: $secondary;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rem;
+}
+.circulprimary {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: rgba($primary, 0.1);
+  color: $primary;
+  border-color: $primary;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rem;
+}
+.circulwarning {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: rgba($warning, 0.1);
+  border-color: $warning;
+  color: $warning;
   font-size: 1.2rem;
   align-items: center;
   justify-content: center;

@@ -2101,6 +2101,10 @@ p {
   align-items: center;
 }
 
+.atbd_listing_data_list.button_list li {
+  margin-bottom: 1rem;
+}
+
 .atbd_listing_data_list ul {
   margin: 5px 0 0 0;
   padding: 0;
@@ -2457,6 +2461,33 @@ p {
   height: 2rem;
   background: rgba(144, 58, 249, 0.1);
   color: #903af9;
+  border-color: #903af9;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rem;
+}
+
+.circulprimary {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: rgba(245, 84, 142, 0.1);
+  color: #f5548e;
+  border-color: #f5548e;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rem;
+}
+
+.circulwarning {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: rgba(250, 139, 12, 0.1);
+  border-color: #fa8b0c;
+  color: #fa8b0c;
   font-size: 1.2rem;
   align-items: center;
   justify-content: center;
