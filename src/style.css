@@ -4445,6 +4445,26 @@ p {
   padding: 1rem;
 }
 
+.gap2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.sliderbtn {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .sliderbtn {
+    position: absolute;
+    top: -40px;
+  }
+  .sliderbtn.right {
+    right: 0px;
+  }
+}
+
 .search-area .form-group {
   position: relative;
 }
