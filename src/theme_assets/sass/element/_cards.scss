@@ -463,11 +463,18 @@
   }
 }
 
+.fullheight {
+  height: 100%;
+  .imgadd {
+    height: 100%;
+  }
+}
 // cards list
 .atbd_listing_list {
   background: #fff;
   margin-bottom: remy(30px);
   border: 1px solid $border-color;
+
   .atbd_single_listing_wrapper {
     display: flex;
     .atbd_listing_thumbnail_area {
@@ -640,4 +647,24 @@
     font-size: 0.7rem;
     line-height: 2.5;
   }
+}
+
+.user-reply {
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+  }
+}
+.comment-user {
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 10px;
+  }
+}
+.text-red {
+  color: red;
 }

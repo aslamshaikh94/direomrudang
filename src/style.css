@@ -2333,6 +2333,14 @@ p {
   justify-content: flex-end;
 }
 
+.fullheight {
+  height: 100%;
+}
+
+.fullheight .imgadd {
+  height: 100%;
+}
+
 .atbd_listing_list {
   background: #fff;
   margin-bottom: 2rem;
@@ -2504,6 +2512,24 @@ p {
   line-height: 2.5;
 }
 
+.user-reply img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.comment-user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.text-red {
+  color: red;
+}
+
 /* Categories with image  */
 .category-single {
   margin-bottom: 2rem;
@@ -2574,7 +2600,7 @@ p {
 
 .category--img .category--img4 figcaption:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   left: 0;
@@ -2604,7 +2630,7 @@ p {
   margin-bottom: 1.33333rem;
 }
 
-.category-place-single:nth-child(2n+1) {
+.category-place-single:nth-child(2n + 1) {
   margin-right: 20px;
 }
 
@@ -2626,7 +2652,7 @@ p {
 
 .category-place-single figure a:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   left: 0;
@@ -2637,7 +2663,7 @@ p {
 
 .category-place-single figure a:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   left: 0;
@@ -2647,7 +2673,7 @@ p {
   background: -ms-linear-gradient(45deg, rgba(245, 84, 142, 0.9) 0%, rgba(144, 58, 249, 0.9) 100%);
   visibility: hidden;
   opacity: 0;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .category-place-single figure a:hover:before {
@@ -3706,7 +3732,7 @@ p {
 
 .listing-details-wrapper:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   left: 0;
@@ -4083,7 +4109,7 @@ p {
 
 .atbdb_content_module_contents .video-wrapper figure:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   left: 0;
@@ -4195,7 +4221,7 @@ p {
 }
 
 .atbd_faqs_module .atbdp-accordion .accordion-single .faq-title a:before {
-  content: '\f2c2';
+  content: "\f2c2";
   font-family: "LineAwesome";
   transition: all 0.3s ease;
   margin-right: 0.4rem;
@@ -4207,7 +4233,7 @@ p {
 }
 
 .atbd_faqs_module .atbdp-accordion .accordion-single.selected .faq-title a:before {
-  content: '\f28e';
+  content: "\f28e";
 }
 
 .atbd_review_module .atbd_content_module__tittle_area {
@@ -4254,12 +4280,12 @@ p {
 }
 
 .atbd_review_module #client_review_list .atbd_single_review .atbd_review_top .atbd_rated_stars .rate_active:before {
-  content: '\f318';
+  content: "\f318";
   font-family: "LineAwesome";
 }
 
 .atbd_review_module #client_review_list .atbd_single_review .atbd_review_top .atbd_rated_stars .rate_disable:before {
-  content: '\f31b';
+  content: "\f31b";
   font-family: "LineAwesome";
 }
 
@@ -4410,6 +4436,13 @@ p {
 
 .atbd_review_form #atbdp_review_form #atbdp_review_form_submit {
   margin-top: 0.46667rem;
+}
+
+.popularTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 1rem;
 }
 
 .search-area .form-group {
