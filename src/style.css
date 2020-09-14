@@ -4449,6 +4449,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  justify-content: center;
 }
 
 .sliderbtn {
@@ -4463,6 +4464,19 @@ p {
   .sliderbtn.right {
     right: 0px;
   }
+}
+
+.ReceivelatestUpdates {
+  padding: 0.8rem 0;
+  margin: 0.5rem 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.paginationD {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
 }
 
 .search-area .form-group {
@@ -4740,6 +4754,99 @@ p {
 
 .pricing .pricing__features ul li .atbd_color-success {
   font-weight: 600;
+}
+
+#tesponsiveTable.table th,
+#tesponsiveTable.table td {
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  #tesponsiveTable.table th,
+  #tesponsiveTable.table td {
+    padding: 0.5rem 2rem;
+  }
+}
+
+#tesponsiveTable td::before {
+  display: none;
+}
+
+#tesponsiveTable td:nth-of-type(2) {
+  font-style: italic;
+}
+
+#tesponsiveTable th:nth-of-type(3),
+#tesponsiveTable td:nth-of-type(3) {
+  text-align: right;
+}
+
+@media screen and (max-width: 37em), print and (max-width: 5in) {
+  #tesponsiveTable table,
+  #tesponsiveTable tr,
+  #tesponsiveTable td {
+    display: block;
+  }
+  #tesponsiveTable tr {
+    padding: 0.7em 2vw;
+  }
+  #tesponsiveTable th,
+  #tesponsiveTable tr:first-of-type {
+    display: none;
+  }
+  #tesponsiveTable td {
+    grid-template-columns: 4em auto;
+    grid-gap: 1em 0.5em;
+  }
+  #tesponsiveTable td:nth-of-type(3) {
+    text-align: left;
+  }
+  #tesponsiveTable td:nth-of-type(4)::before,
+  #tesponsiveTable td:nth-of-type(5)::before {
+    text-align: left;
+  }
+  #tesponsiveTable td:nth-of-type(2)::before {
+    font-style: normal;
+  }
+}
+
+@media print {
+  #tesponsiveTable table {
+    page-break-inside: avoid;
+  }
+  #tesponsiveTable div {
+    overflow: visible;
+  }
+  #tesponsiveTable th {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1pt solid #000;
+  }
+  #tesponsiveTable tr {
+    border-top: 1pt solid #000;
+  }
+}
+
+@media print and (max-width: 5in) {
+  #tesponsiveTable table {
+    page-break-inside: auto;
+  }
+  #tesponsiveTable tr {
+    page-break-inside: avoid;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsiveRow {
+    display: flex;
+    flex-direction: column;
+  }
+  .question {
+    font-size: 1.2rem;
+  }
 }
 
 /*****************************

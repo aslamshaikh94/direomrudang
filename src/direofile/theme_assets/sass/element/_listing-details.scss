@@ -686,3 +686,18 @@
   gap: 5px;
   padding: 1rem;
 }
+.gap2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.sliderbtn {
+  position: relative;
+  @media (max-width: 768px) {
+    position: absolute;
+    top: -40px;
+    &.right {
+      right: 0px;
+    }
+  }
+}
